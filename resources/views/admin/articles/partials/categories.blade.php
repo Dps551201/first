@@ -4,7 +4,7 @@
 
     @isset ($article->id)
         @foreach ($article->categories as $category_article)
-            @if ($cateory->id == $category_article->id)
+            @if ($category->id == $category_article->id)
                 selected="selected"
             @endif
         @endforeach
