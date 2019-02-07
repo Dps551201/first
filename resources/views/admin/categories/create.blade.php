@@ -1,4 +1,4 @@
-@extends('admin.layouts.app_admin)
+@extends('admin.layouts.app_admin')
 
 @section('content')
     <div class="container">
@@ -15,7 +15,7 @@
             {{ csrf_field() }}
 
             {{-- Form include --}}
-            {{--}}@include('admin.categories.partials.form')--}}
+            @include('admin.categories.partials.form')
 
         </form>
     </div>
