@@ -31,6 +31,7 @@
                    href="{{route('admin.category.create')}}">Создать категорию</a>
                 <a class="list-group-item" href="#">
                     <h4 class="list-group-item-heading">Категория первая</h4>
+
                     <p class="list-group-item-text">
                         Кол-во материалов
                     </p>
